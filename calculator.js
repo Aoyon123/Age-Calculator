@@ -71,7 +71,7 @@ btn.addEventListener("click", (days, month, year) => {
   }
 
   var ageMonths = m - month;
-  var ageDays = maxDays - d + parseInt(days);
+  var ageDays = maxDays - d ;
 
   console.log(`Here is your age ${ageYears}y,${ageMonths} m and ${ageDays} d`);
   displayAge.innerHTML = `Here is your age ${ageYears}y,${ageMonths} m and ${ageDays} d`;
